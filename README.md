@@ -1,4 +1,4 @@
-# latex-builder
+# latex-workshop-docker-image
 
 This [Dockerfile](Dockerfile) was created to build a latex document together with the [Visual Studio Code](https://code.visualstudio.com) extension [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop).
 
@@ -8,7 +8,7 @@ Just set the following settings
 
 ```json
 {
-    "latex-workshop.docker.image.latex": "raaaimund/latex-builder",
+    "latex-workshop.docker.image.latex": "raaaimund/latex-workshop-docker-image",
     "latex-workshop.docker.enabled": true
 }
 ```
