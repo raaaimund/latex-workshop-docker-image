@@ -1,0 +1,1 @@
+docker build -t raaaimund/latex-workshop-docker-image-local .
